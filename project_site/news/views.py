@@ -6,6 +6,4 @@ def index(request):
     print(request)
     return HttpResponse()
 def test(request):
-
-
     return HttpResponse("Hello")
