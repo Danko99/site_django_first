@@ -11,3 +11,13 @@
 Выполнить добавление таблицы командой "python manage.py sqlmigrate news 0001"
 
 Применение всех миграций "python manage.py migrate"
+
+
+
+
+
+
+
+
+Полезные ссылки:
+https://djbook.ru/rel3.0/
