@@ -1,0 +1,13 @@
+Виртуальное окружение
+.\venv\Scripts\activate
+
+Запуск сервера
+Переходим в папку project_site "cd .\project_site\" и вводим команду "python manage.py runserver"
+
+
+
+Выполнить миграцию по созданию схемы таблицы: "python manage.py makemigrations", предварительно добавив приложение в settings.py->INSTALLED_APPS
+
+Выполнить добавление таблицы командой "python manage.py sqlmigrate news 0001"
+
+Применение всех миграций "python manage.py migrate"
