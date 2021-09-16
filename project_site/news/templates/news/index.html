@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Список новостей</title>
+    <title>{{title}}</title>
 </head>
 <body>
-
+<h1>{{title}}</h1>
+{% for i in news%}
+<div>
+    <p>{{i.title}}</p>
+    <p>{{i.content}}</p>
+</div>
+{%endfor%}
 </body>
 </html>
