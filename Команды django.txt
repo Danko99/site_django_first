@@ -12,8 +12,7 @@
 
 Применение всех миграций "python manage.py migrate"
 
-
-
+Создать суперпользователя "python manage.py createsuperuser"
 
 
 
