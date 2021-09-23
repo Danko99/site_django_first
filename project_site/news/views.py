@@ -7,7 +7,7 @@ from http import *
 # Create your views here.
 def index(request):
     news = News.objects.all()
-    categories = Category.objexts.all()
+    categories = Category.objects.all()
     context = {
         'news': news,
         'title': "Список новостей",
